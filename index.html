@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLITCH // Full Stack Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="custom-cursor"></div>
+    <div class="cursor-trail"></div>
+
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">GLITCH</div>
+            <div class="loader-bar-container">
+                <div class="loader-bar"></div>
+            </div>
+            <div class="loader-status">INITIALIZING SYSTEMS... <span id="load-pct">0%</span></div>
+        </div>
+    </div>
+
+    <div class="cyber-grid"></div>
+    <div class="aurora-bg"></div>
+    <div id="particles-container"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">G<span class="neon-text-pink">LIT</span>CH</a>
+            
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="burger-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-nav">
+        <ul class="mobile-links">
+            <li><a href="#home" class="mobile-link">Home</a></li>
+            <li><a href="#about" class="mobile-link">About</a></li>
+            <li><a href="#skills" class="mobile-link">Skills</a></li>
+            <li><a href="#services" class="mobile-link">Services</a></li>
+            <li><a href="#projects" class="mobile-link">Projects</a></li>
+            <li><a href="#contact" class="mobile-link">Contact</a></li>
+        </ul>
+    </div>
+
+    <main class="main-content">
+
+        <section id="home" class="hero-section scroll-reveal">
+            <div class="hero-container">
+                <div class="hero-img-wrapper">
+                    <div class="neon-border-glow"></div>
+                    <img src="https://i.ibb.co/gM4hCHFs/profile.png" alt="GLITCH Profile Image" class="hero-profile-img">
+                </div>
+                
+                <div class="hero-info">
+                    <span class="cyber-badge">SYSTEMS ACTIVE // 2026</span>
+                    <h1 class="hero-title">I AM <span class="glitch-text" data-text="GLITCH">GLITCH</span></h1>
+                    <h2 class="typewriter-container">
+                        <span class="txt-type" data-wait="2000" data-words='["Full Stack Developer", "Web Designer", "UI Engineer", "Frontend Specialist"]'></span>
+                    </h2>
+                    <p class="hero-desc">Architecting premium, matrix-level digital web environments. Bridging bleeding-edge performance with immersive, high-fidelity cyber design semantics.</p>
+                    
+                    <div class="hero-ctas">
+                        <a href="#projects" class="btn btn-cyan"><span>VIEW PROJECTS</span></a>
+                        <a href="#contact" class="btn btn-pink"><span>CONTACT ME</span></a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <a href="https://t.me/usjacker" target="_blank" class="social-icon-btn"><i class="fab fa-telegram"></i></a>
+                        <a href="https://instagram.com/yng_.love" target="_blank" class="social-icon-btn"><i class="fab fa-instagram"></i></a>
+                        <a href="mailto:lovejotmaan786@gmail.com" class="social-icon-btn"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down-indicator">
+                <span>SCROLL DOWN</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <section id="about" class="about-section scroll-reveal">
+            <div class="section-header">
+                <h2 class="section-title"><span class="neon-text-purple">//</span> ABOUT_ME</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="about-grid">
+                <div class="glass-card about-card-main">
+                    <h3 class="neon-text-cyan">BIOGRAPHY_DATA</h3>
+                    <p>I am a multidisciplinary Full Stack Web Developer pushing the boundaries of spatial UI/UX designs and high-throughput application logic. Operating at the intersection of high-tier aesthetic rendering and complex server architectures, I construct digital systems that are break-proof, bulletproof, and hyper-optimized.</p>
+                    <p class="margin-top-15">Whether deploying microservices, engineering low-latency interfaces, or integrating secure web networks, my process ensures your target platform achieves peak structural authority.</p>
+                </div>
+
+                <div class="counters-grid">
+                    <div class="glass-card counter-card">
+                        <span class="counter-num" data-target="140">0</span><span class="counter-plus">+</span>
+                        <p class="counter-label">PROJECTS COMPLETED</p>
+                    </div>
+                    <div class="glass-card counter-card">
+                        <span class="counter-num" data-target="98">0</span><span class="counter-plus">%</span>
+                        <p class="counter-label">HAPPY CLIENTS</p>
+                    </div>
+                    <div class="glass-card counter-card">
+                        <span class="counter-num" data-target="5">0</span><span class="counter-plus">+</span>
+                        <p class="counter-label">YEARS EXPERIENCE</p>
+                    </div>
+                    <div class="glass-card counter-card">
+                        <span class="counter-num" data-target="24">0</span><span class="counter-plus">/7</span>
+                        <p class="counter-label">SYSTEM UPTIME</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section scroll-reveal">
+            <div class="section-header">
+                <h2 class="section-title"><span class="neon-text-pink">//</span> TECH_CAPABILITIES</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="skills-grid">
+                <div class="glass-card skill-card" data-tilt>
+                    <div class="skill-info">
+                        <span class="skill-name"><i class="fab fa-html5 neon-text-pink"></i> HTML5</span>
+                        <span class="skill-pct">95%</span>
+                    </div>
+                    <div class="progress-bar-bg"><div class="progress-bar-fill progress-pink" style="width: 0%"></div></div>
+                </div>
+                <div class="glass-card skill-card" data-tilt>
+                    <div class="skill-info">
+                        <span class="skill-name"><i class="fab fa-css3-alt neon-text-cyan"></i> CSS3</span>
+                        <span class="skill-pct">90%</span>
+                    </div>
+                    <div class="progress-bar-bg"><div class="progress-bar-fill progress-cyan" style="width: 0%"></div></div>
+                </div>
+                <div class="glass-card skill-card" data-tilt>
+                    <div class="skill-info">
+                        <span class="skill-name"><i class="fab fa-js-square neon-text-purple"></i> JavaScript</span>
+                        <span class="skill-pct">88%</span>
+                    </div>
+                    <div class="progress-bar-bg"><div class="progress-bar-fill progress-purple" style="width: 0%"></div></div>
+                </div>
+                <div class="glass-card skill-card" data-tilt>
+                    <div class="skill-info">
+                        <span class="skill-name"><i class="fab fa-react neon-text-cyan"></i> React</span>
+                        <span class="skill-pct">85%</span>
+                    </div>
+                    <div class="progress-bar-bg"><div class="progress-bar-fill progress-cyan" style="width: 0%"></div></div>
+                </div>
+                <div class="glass-card skill-card" data-tilt>
+                    <div class="skill-info">
+                        <span class="skill-name"><i class="fab fa-node-js neon-text-purple"></i> Node.js</span>
+                        <span class="skill-pct">82%</span>
+                    </div>
+                    <div class="progress-bar-bg"><div class="progress-bar-fill progress-purple" style="width: 0%"></div></div>
+                </div>
+                <div class="glass-card skill-card" data-tilt>
+                    <div class="skill-info">
+                        <span class="skill-name"><i class="fas fa-bezier-curve neon-text-pink"></i> UI/UX Design</span>
+                        <span class="skill-pct">92%</span>
+                    </div>
+                    <div class="progress-bar-bg"><div class="progress-bar-fill progress-pink" style="width: 0%"></div></div>
+                </div>
+                <div class="glass-card skill-card" data-tilt>
+                    <div class="skill-info">
+                        <span class="skill-name"><i class="fas fa-mobile-alt neon-text-cyan"></i> Responsive Design</span>
+                        <span class="skill-pct">95%</span>
+                    </div>
+                    <div class="progress-bar-bg"><div class="progress-bar-fill progress-cyan" style="width: 0%"></div></div>
+                </div>
+                <div class="glass-card skill-card" data-tilt>
+                    <div class="skill-info">
+                        <span class="skill-name"><i class="fas fa-plug neon-text-purple"></i> API Integration</span>
+                        <span class="skill-pct">87%</span>
+                    </div>
+                    <div class="progress-bar-bg"><div class="progress-bar-fill progress-purple" style="width: 0%"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section scroll-reveal">
+            <div class="section-header">
+                <h2 class="section-title"><span class="neon-text-cyan">//</span> PROTOCOLS_SERVICES</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="services-grid">
+                <div class="glass-card service-card" data-tilt>
+                    <div class="service-icon"><i class="fas fa-code neon-text-cyan"></i></div>
+                    <h3>Web Development</h3>
+                    <p>Clean-code, high-throughput scalable web infrastructure built using cutting-edge architectural structures.</p>
+                </div>
+                <div class="glass-card service-card" data-tilt>
+                    <div class="service-icon"><i class="fas fa-bolt neon-text-pink"></i></div>
+                    <h3>Landing Pages</h3>
+                    <p>High-conversion premium standalone micro-nodes explicitly targeted for maximum visual retention rates.</p>
+                </div>
+                <div class="glass-card service-card" data-tilt>
+                    <div class="service-icon"><i class="fas fa-building neon-text-purple"></i></div>
+                    <h3>Business Websites</h3>
+                    <p>Hyper-reliable, enterprise-grade frameworks tailored to map high brand value accurately in web spaces.</p>
+                </div>
+                <div class="glass-card service-card" data-tilt>
+                    <div class="service-icon"><i class="fas fa-user-shield neon-text-cyan"></i></div>
+                    <h3>Portfolio Websites</h3>
+                    <p>Awwwards-tier interactive experiences personalized to exhibit core competencies using immersive systems.</p>
+                </div>
+                <div class="glass-card service-card" data-tilt>
+                    <div class="service-icon"><i class="fas fa-paint-brush neon-text-purple"></i></div>
+                    <h3>UI/UX Design</h3>
+                    <p>Frictionless UX workflows matched with intense spatial elements across layouts for maximum consumer hook.</p>
+                </div>
+                <div class="glass-card service-card" data-tilt>
+                    <div class="service-icon"><i class="fas fa-cubes neon-text-pink"></i></div>
+                    <h3>Custom Web Apps</h3>
+                    <p>Complex standalone application frameworks engineered specifically to manage unique cloud data vectors securely.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section scroll-reveal">
+            <div class="section-header">
+                <h2 class="section-title"><span class="neon-text-purple">//</span> ARCHIVED_PROJECTS</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="projects-grid">
+                <div class="glass-card project-card" data-tilt>
+                    <div class="project-img-container">
+                        <div class="project-overlay-glow"></div>
+                        <div class="project-placeholder-visual gradient-1">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Premium Portfolio Website</h3>
+                        <p>Immersive vector portfolio utilizing complex layout structures and absolute fluid state triggers.</p>
+                        <div class="project-tags">
+                            <span class="tag tag-cyan">HTML5</span>
+                            <span class="tag tag-pink">CSS3</span>
+                            <span class="tag tag-purple">Vanilla JS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-project demo-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="btn-project source-link"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card project-card" data-tilt>
+                    <div class="project-img-container">
+                        <div class="project-overlay-glow"></div>
+                        <div class="project-placeholder-visual gradient-2">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Store</h3>
+                        <p>Fully tokenized marketplace built with integrated web checkout and custom matrix animations.</p>
+                        <div class="project-tags">
+                            <span class="tag tag-purple">React</span>
+                            <span class="tag tag-cyan">Node.js</span>
+                            <span class="tag tag-pink">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-project demo-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="btn-project source-link"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card project-card" data-tilt>
+                    <div class="project-img-container">
+                        <div class="project-overlay-glow"></div>
+                        <div class="project-placeholder-visual gradient-3">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Business Website</h3>
+                        <p>Corporate platform mapped onto performance clusters maximizing load times under 400ms.</p>
+                        <div class="project-tags">
+                            <span class="tag tag-cyan">UX Architecture</span>
+                            <span class="tag tag-pink">Vanilla JS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-project demo-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="btn-project source-link"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card project-card" data-tilt>
+                    <div class="project-img-container">
+                        <div class="project-overlay-glow"></div>
+                        <div class="project-placeholder-visual gradient-4">
+                            <i class="fas fa-crosshairs"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Fusion Scrims Platform</h3>
+                        <p>Esports matchmaking cluster managing tournament tracking, real-time rosters, and score analytics.</p>
+                        <div class="project-tags">
+                            <span class="tag tag-pink">WebSockets</span>
+                            <span class="tag tag-purple">React</span>
+                            <span class="tag tag-cyan">Express</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-project demo-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="btn-project source-link"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card project-card" data-tilt>
+                    <div class="project-img-container">
+                        <div class="project-overlay-glow"></div>
+                        <div class="project-placeholder-visual gradient-1">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Dashboard UI</h3>
+                        <p>Complex control room layout plotting operational data telemetry, servers, and security protocols.</p>
+                        <div class="project-tags">
+                            <span class="tag tag-cyan">ChartJS</span>
+                            <span class="tag tag-purple">Glassmorphism</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-project demo-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="btn-project source-link"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card project-card" data-tilt>
+                    <div class="project-img-container">
+                        <div class="project-overlay-glow"></div>
+                        <div class="project-placeholder-visual gradient-2">
+                            <i class="fas fa-terminal"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Custom Client Project</h3>
+                        <p>Encrypted data ingestion platform designed for high security cloud management vectors.</p>
+                        <div class="project-tags">
+                            <span class="tag tag-pink">NextJS</span>
+                            <span class="tag tag-purple">Tailwind</span>
+                            <span class="tag tag-cyan">API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-project demo-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="btn-project source-link"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section scroll-reveal">
+            <div class="section-header">
+                <h2 class="section-title"><span class="neon-text-pink">//</span> NODE_TESTIMONIALS</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="slider-wrapper">
+                <div class="testimonials-slider">
+                    <div class="glass-card testimonial-card active">
+                        <div class="quote-icon"><i class="fas fa-quote-right neon-text-pink"></i></div>
+                        <p class="testimonial-text">"GLITCH delivered an completely outstanding UI platform that scaled flawlessly. Code architecture was remarkably clean and precise."</p>
+                        <div class="client-info">
+                            <div class="client-meta">
+                                <h4>VECTOR INDUSTRIES</h4>
+                                <span>Core Tech Director</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="glass-card testimonial-card">
+                        <div class="quote-icon"><i class="fas fa-quote-right neon-text-cyan"></i></div>
+                        <p class="testimonial-text">"Visual engineering standard is Awwwards level. Our conversion figures spiked immediately following deployment of the new application matrix."</p>
+                        <div class="client-info">
+                            <div class="client-meta">
+                                <h4>NEXUS NETWORKS</h4>
+                                <span>Operations Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-controls">
+                    <button class="slider-btn prev-btn"><i class="fas fa-arrow-left"></i></button>
+                    <button class="slider-btn next-btn"><i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section scroll-reveal">
+            <div class="section-header">
+                <h2 class="section-title"><span class="neon-text-cyan">//</span> COMM_TERMINAL</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="contact-grid">
+                <div class="glass-card contact-info-card">
+                    <h3 class="neon-text-cyan">CORE_DATAFEED</h3>
+                    <p class="margin-bottom-20">Initialize a transmission pipeline below. Secure nodes are operational 24/7 for project processing.</p>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-envelope neon-text-pink"></i>
+                        <div>
+                            <span>EMAIL_ADDRESS</span>
+                            <p><a href="mailto:lovejotmaan786@gmail.com">lovejotmaan786@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt neon-text-cyan"></i>
+                        <div>
+                            <span>COMMS_CELL</span>
+                            <p><a href="tel:+917009925064">+91 7009925064</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fab fa-telegram-plane neon-text-purple"></i>
+                        <div>
+                            <span>TELEGRAM_NODE</span>
+                            <p><a href="https://t.me/usjacker" target="_blank">@usjacker</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fab fa-instagram neon-text-pink"></i>
+                        <div>
+                            <span>INSTAGRAM_FEED</span>
+                            <p><a href="https://instagram.com/yng_.love" target="_blank">@yng_.love</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card contact-form-card">
+                    <h3 class="neon-text-pink">TRANSMIT_MESSAGE</h3>
+                    <form id="cyber-contact-form" autocomplete="off">
+                        <div class="input-group">
+                            <input type="text" id="form-name" required placeholder=" ">
+                            <label for="form-name">IDENTIFIER_NAME</label>
+                            <span class="input-border"></span>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="form-email" required placeholder=" ">
+                            <label for="form-email">COMPORT_EMAIL</label>
+                            <span class="input-border"></span>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="form-message" required placeholder=" " rows="5"></textarea>
+                            <label for="form-message">TRANSMISSION_PAYLOAD</label>
+                            <span class="input-border"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-purple submit-btn">
+                            <span>EXECUTE TRANSMISSION</span>
+                        </button>
+                    </form>
+                    <div class="form-feedback-msg" id="form-status"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">G<span class="neon-text-pink">LIT</span>CH</div>
+            <div class="footer-socials">
+                <a href="https://t.me/usjacker" target="_blank"><i class="fab fa-telegram"></i></a>
+                <a href="https://instagram.com/yng_.love" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:lovejotmaan786@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p class="footer-copyright">&copy; 2026 GLITCH - All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <div class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
